@@ -1,0 +1,107 @@
+
+.btn{
+    width:400px;
+    height:80px;
+    border-radius:45px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(224, 6, 6, 0.1);
+    transition: all 0.3s ease;
+    background-color: rgb(17, 39, 130);
+
+    
+
+}
+
+.btn:hover{
+
+    background: rgba(61, 55, 236, 0.889);
+    transform: translate(-7px);
+    color:rgb(6, 6, 6);
+    box-shadow: 0px 10px 25px rgba(241, 12, 12, 0.445);
+}
+
+.background{
+
+    background-color: black;
+}
+
+.inline-buttons{
+    text-align:right;
+}
+
+*{
+    margin: 0;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu' , sans-serif;
+}
+
+.card{
+    height: 250px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 245, 245);
+    position: relative;
+    overflow: hidden;
+    box-shadow:
+     0em 0.6em 1.2em #5c28def1;
+}
+
+
+
+
+
+
+.connections{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.connections span{
+    display: block;
+    height: 50px;
+    width: 50px;
+    color: rgb(245, 241, 241);
+    margin: 0.3em;
+    padding: 0.27em;
+    font-size: 2em;
+    background-color: slateblue;
+    border-radius: 50%;
+    font-family: "Material Icons";
+    opacity: 0;
+    transition: all 1s var(--delay);
+    transform: translateY(50px);
+}
+
+.showcase{
+
+    height: 50%;
+    width: 60vh;
+    position: relative;
+
+}
+.showcase video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+
+}
+.title{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-size: 100px;
+    color: white;
+    mix-blend-mode: multiply;
+}
